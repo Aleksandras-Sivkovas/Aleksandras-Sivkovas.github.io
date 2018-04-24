@@ -1,0 +1,727 @@
+{
+	"classId": "dvcm.DVCMModel",
+	"name": "Example_1",
+	"root": {
+		"classId": "dvcm.DVCM",
+		"id": 0,
+		"position": {
+			"x": 0,
+			"y": 0
+		},
+		"width": 900,
+		"height": 1600,
+		"borderWidth": 1,
+		"children": [
+			{
+				"classId": "dvcm.Pool",
+				"id": 0,
+				"position": {
+					"x": 0,
+					"y": 0
+				},
+				"width": 150,
+				"height": 1600,
+				"borderWidth": 1,
+				"name": "Processes",
+				"children": [
+					{
+						"classId": "dvcm.StartEvent",
+						"id": 10,
+						"position": {
+							"x": 30,
+							"y": 10
+						},
+						"width": 50,
+						"height": 50,
+						"borderWidth": 1,
+						"children": []
+					},
+					{
+						"classId": "dvcm.EndEvent",
+						"id": 12,
+						"position": {
+							"x": 20,
+							"y": 1010
+						},
+						"width": 50,
+						"height": 50,
+						"borderWidth": 1,
+						"children": []
+					},
+					{
+						"classId": "dvcm.Activity",
+						"id": 14,
+						"position": {
+							"x": 40,
+							"y": 110
+						},
+						"width": 80,
+						"height": 80,
+						"borderWidth": 1,
+						"name": "P1.",
+						"children": []
+					},
+					{
+						"classId": "dvcm.Activity",
+						"id": 100,
+						"position": {
+							"x": 40,
+							"y": 260
+						},
+						"width": 80,
+						"height": 80,
+						"borderWidth": 1,
+						"name": "P2.",
+						"children": []
+					},
+					{
+						"classId": "dvcm.Activity",
+						"id": 101,
+						"position": {
+							"x": 40,
+							"y": 430
+						},
+						"width": 80,
+						"height": 80,
+						"borderWidth": 1,
+						"name": "P3.",
+						"children": []
+					},
+					{
+						"classId": "dvcm.Activity",
+						"id": 102,
+						"position": {
+							"x": 30,
+							"y": 600
+						},
+						"width": 80,
+						"height": 80,
+						"borderWidth": 1,
+						"name": "P4.",
+						"children": []
+					},
+					{
+						"classId": "dvcm.Activity",
+						"id": 103,
+						"position": {
+							"x": 30,
+							"y": 730
+						},
+						"width": 80,
+						"height": 80,
+						"borderWidth": 1,
+						"name": "P5.",
+						"children": []
+					},
+					{
+						"classId": "dvcm.Activity",
+						"id": 104,
+						"position": {
+							"x": 30,
+							"y": 870
+						},
+						"width": 80,
+						"height": 80,
+						"borderWidth": 1,
+						"name": "P6.",
+						"children": []
+					}
+				]
+			},
+			{
+				"classId": "dvcm.Pool",
+				"id": 11,
+				"position": {
+					"x": 152,
+					"y": 0
+				},
+				"width": 600,
+				"height": 1600,
+				"borderWidth": 1,
+				"name": "Functions",
+				"children": [
+					{
+						"classId": "dvcm.Pool",
+						"id": 15,
+						"position": {
+							"x": 0,
+							"y": 0
+						},
+						"width": 200,
+						"height": 1539,
+						"borderWidth": 1,
+						"name": "Department1",
+						"children": [
+							{
+								"classId": "dvcm.Activity",
+								"id": 18,
+								"position": {
+									"x": 40,
+									"y": 20
+								},
+								"width": 80,
+								"height": 80,
+								"borderWidth": 1,
+								"name": "F1.1.",
+								"children": []
+							},
+							{
+								"classId": "dvcm.Activity",
+								"id": 114,
+								"position": {
+									"x": 90,
+									"y": 540
+								},
+								"width": 80,
+								"height": 80,
+								"borderWidth": 1,
+								"name": "F4.",
+								"children": []
+							},
+							{
+								"classId": "dvcm.Activity",
+								"id": 115,
+								"position": {
+									"x": 80,
+									"y": 670
+								},
+								"width": 80,
+								"height": 80,
+								"borderWidth": 1,
+								"name": "F5.",
+								"children": []
+							}
+						]
+					},
+					{
+						"classId": "dvcm.Pool",
+						"id": 21,
+						"position": {
+							"x": 202,
+							"y": 0
+						},
+						"width": 200,
+						"height": 1539,
+						"borderWidth": 1,
+						"name": "Department2",
+						"children": [
+							{
+								"classId": "dvcm.Activity",
+								"id": 23,
+								"position": {
+									"x": 20,
+									"y": 20
+								},
+								"width": 80,
+								"height": 80,
+								"borderWidth": 1,
+								"name": "F1.",
+								"children": []
+							},
+							{
+								"classId": "dvcm.Activity",
+								"id": 113,
+								"position": {
+									"x": 50,
+									"y": 370
+								},
+								"width": 80,
+								"height": 80,
+								"borderWidth": 1,
+								"name": "F3.",
+								"children": []
+							},
+							{
+								"classId": "dvcm.Activity",
+								"id": 116,
+								"position": {
+									"x": 30,
+									"y": 780
+								},
+								"width": 80,
+								"height": 80,
+								"borderWidth": 1,
+								"name": "F6.",
+								"children": []
+							}
+						]
+					},
+					{
+						"classId": "dvcm.Pool",
+						"id": 27,
+						"position": {
+							"x": 404,
+							"y": 0
+						},
+						"width": 196,
+						"height": 1539,
+						"borderWidth": 1,
+						"name": "Department3",
+						"children": [
+							{
+								"classId": "dvcm.Activity",
+								"id": 29,
+								"position": {
+									"x": 20,
+									"y": 50
+								},
+								"width": 80,
+								"height": 80,
+								"borderWidth": 1,
+								"name": "F1.2.",
+								"children": []
+							},
+							{
+								"classId": "dvcm.Activity",
+								"id": 110,
+								"position": {
+									"x": 20,
+									"y": 200
+								},
+								"width": 80,
+								"height": 80,
+								"borderWidth": 1,
+								"name": "F2.",
+								"children": []
+							},
+							{
+								"classId": "dvcm.Activity",
+								"id": 117,
+								"position": {
+									"x": 10,
+									"y": 780
+								},
+								"width": 80,
+								"height": 80,
+								"borderWidth": 1,
+								"name": "F7.",
+								"children": []
+							}
+						]
+					}
+				]
+			}
+		]
+	},
+	"relations": [
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "z1",
+			"id": 34,
+			"source": 10,
+			"target": 14,
+			"sourcePoint": {
+				"x": 10,
+				"y": 50.98076211353316
+			},
+			"targetPoint": {
+				"x": 10,
+				"y": 0
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "k2",
+			"id": 35,
+			"source": 14,
+			"target": 18,
+			"sourcePoint": {
+				"x": 80,
+				"y": 0
+			},
+			"targetPoint": {
+				"x": 0,
+				"y": 20
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "k3",
+			"id": 111,
+			"source": 110,
+			"target": 100,
+			"sourcePoint": {
+				"x": 0,
+				"y": 10
+			},
+			"targetPoint": {
+				"x": 80,
+				"y": 10
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "k4",
+			"id": 112,
+			"source": 100,
+			"target": 110,
+			"sourcePoint": {
+				"x": 80,
+				"y": 40
+			},
+			"targetPoint": {
+				"x": 0,
+				"y": 40
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "z2",
+			"id": 36,
+			"source": 14,
+			"target": 100,
+			"sourcePoint": {
+				"x": 40,
+				"y": 80
+			},
+			"targetPoint": {
+				"x": 40,
+				"y": 0
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "z3",
+			"id": 105,
+			"source": 100,
+			"target": 101,
+			"sourcePoint": {
+				"x": 30,
+				"y": 80
+			},
+			"targetPoint": {
+				"x": 30,
+				"y": 0
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "z4",
+			"id": 106,
+			"source": 101,
+			"target": 102,
+			"sourcePoint": {
+				"x": 30,
+				"y": 80
+			},
+			"targetPoint": {
+				"x": 40,
+				"y": 0
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "z5",
+			"id": 107,
+			"source": 102,
+			"target": 103,
+			"sourcePoint": {
+				"x": 40,
+				"y": 80
+			},
+			"targetPoint": {
+				"x": 40,
+				"y": 0
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "z6",
+			"id": 108,
+			"source": 103,
+			"target": 104,
+			"sourcePoint": {
+				"x": 40,
+				"y": 80
+			},
+			"targetPoint": {
+				"x": 40,
+				"y": 0
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "z7",
+			"id": 109,
+			"source": 104,
+			"target": 12,
+			"sourcePoint": {
+				"x": 30,
+				"y": 80
+			},
+			"targetPoint": {
+				"x": 30,
+				"y": -8.630343441600473
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "k2.1",
+			"id": 37,
+			"source": 18,
+			"target": 23,
+			"sourcePoint": {
+				"x": 80,
+				"y": 30
+			},
+			"targetPoint": {
+				"x": 0,
+				"y": 30
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "k2.2",
+			"id": 38,
+			"source": 23,
+			"target": 29,
+			"sourcePoint": {
+				"x": 80,
+				"y": 30
+			},
+			"targetPoint": {
+				"x": 0,
+				"y": 0
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "k1",
+			"id": 39,
+			"source": 29,
+			"target": 14,
+			"sourcePoint": {
+				"x": 0,
+				"y": 70
+			},
+			"targetPoint": {
+				"x": 80,
+				"y": 70
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "k6",
+			"id": 118,
+			"source": 101,
+			"target": 113,
+			"sourcePoint": {
+				"x": 80,
+				"y": 30
+			},
+			"targetPoint": {
+				"x": 0,
+				"y": 30
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "k5",
+			"id": 119,
+			"source": 113,
+			"target": 101,
+			"sourcePoint": {
+				"x": 0,
+				"y": 60
+			},
+			"targetPoint": {
+				"x": 80,
+				"y": 60
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "k4.1",
+			"id": 120,
+			"source": 100,
+			"target": 113,
+			"sourcePoint": {
+				"x": 80,
+				"y": 50
+			},
+			"targetPoint": {
+				"x": 50,
+				"y": 0
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "k5.1",
+			"id": 121,
+			"source": 113,
+			"target": 100,
+			"sourcePoint": {
+				"x": 0,
+				"y": 10
+			},
+			"targetPoint": {
+				"x": 60,
+				"y": 80
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "k8",
+			"id": 122,
+			"source": 102,
+			"target": 114,
+			"sourcePoint": {
+				"x": 80,
+				"y": 10
+			},
+			"targetPoint": {
+				"x": 0,
+				"y": 10
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "k7",
+			"id": 123,
+			"source": 114,
+			"target": 102,
+			"sourcePoint": {
+				"x": 0,
+				"y": 40
+			},
+			"targetPoint": {
+				"x": 80,
+				"y": 40
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.SequenceFlow",
+			"name": "k12",
+			"id": 124,
+			"source": 116,
+			"target": 117,
+			"sourcePoint": {
+				"x": 80,
+				"y": 40
+			},
+			"targetPoint": {
+				"x": 0,
+				"y": 40
+			},
+			"bendPoints": []
+		},
+		{
+			"classId": "dvcm.InTransaction",
+			"id": 40,
+			"source": 33,
+			"target": 14
+		},
+		{
+			"classId": "dvcm.InTransaction",
+			"id": 41,
+			"source": 33,
+			"target": 23
+		},
+		{
+			"classId": "dvcm.InTransaction",
+			"id": 42,
+			"source": 33,
+			"target": 18
+		},
+		{
+			"classId": "dvcm.InTransaction",
+			"id": 43,
+			"source": 33,
+			"target": 29
+		},
+		{
+			"classId": "dvcm.InTransaction",
+			"id": 129,
+			"source": 125,
+			"target": 100
+		},
+		{
+			"classId": "dvcm.InTransaction",
+			"id": 130,
+			"source": 125,
+			"target": 110
+		},
+		{
+			"classId": "dvcm.InTransaction",
+			"id": 131,
+			"source": 126,
+			"target": 101
+		},
+		{
+			"classId": "dvcm.InTransaction",
+			"id": 132,
+			"source": 126,
+			"target": 113
+		},
+		{
+			"classId": "dvcm.InTransaction",
+			"id": 133,
+			"source": 127,
+			"target": 100
+		},
+		{
+			"classId": "dvcm.InTransaction",
+			"id": 134,
+			"source": 127,
+			"target": 113
+		},
+		{
+			"classId": "dvcm.InTransaction",
+			"id": 135,
+			"source": 128,
+			"target": 102
+		},
+		{
+			"classId": "dvcm.InTransaction",
+			"id": 136,
+			"source": 128,
+			"target": 114
+		}
+	],
+	"transactions": [
+		{
+			"classId": "dvcm.Transaction",
+			"id": 33,
+			"name": "MT11"
+		},
+		{
+			"classId": "dvcm.Transaction",
+			"id": 125,
+			"name": "MT22"
+		},
+		{
+			"classId": "dvcm.Transaction",
+			"id": 126,
+			"name": "MT33"
+		},
+		{
+			"classId": "dvcm.Transaction",
+			"id": 127,
+			"name": "MT32"
+		},
+		{
+			"classId": "dvcm.Transaction",
+			"id": 128,
+			"name": "MT44"
+		}
+	]
+}
