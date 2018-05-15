@@ -306,7 +306,6 @@
 	"relations": [
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "z1",
 			"id": 34,
 			"source": 10,
 			"target": 14,
@@ -318,11 +317,11 @@
 				"x": 10,
 				"y": 0
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "z1"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "k2",
 			"id": 35,
 			"source": 14,
 			"target": 18,
@@ -334,11 +333,11 @@
 				"x": 0,
 				"y": 20
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "k2"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "k3",
 			"id": 111,
 			"source": 110,
 			"target": 100,
@@ -350,11 +349,11 @@
 				"x": 80,
 				"y": 10
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "k3"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "k4",
 			"id": 112,
 			"source": 100,
 			"target": 110,
@@ -366,11 +365,11 @@
 				"x": 0,
 				"y": 40
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "k4"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "z2",
 			"id": 36,
 			"source": 14,
 			"target": 100,
@@ -382,11 +381,11 @@
 				"x": 40,
 				"y": 0
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "z2"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "z3",
 			"id": 105,
 			"source": 100,
 			"target": 101,
@@ -398,11 +397,11 @@
 				"x": 30,
 				"y": 0
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "z3"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "z4",
 			"id": 106,
 			"source": 101,
 			"target": 102,
@@ -414,11 +413,11 @@
 				"x": 40,
 				"y": 0
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "z4"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "z5",
 			"id": 107,
 			"source": 102,
 			"target": 103,
@@ -430,11 +429,11 @@
 				"x": 40,
 				"y": 0
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "z5"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "z6",
 			"id": 108,
 			"source": 103,
 			"target": 104,
@@ -446,11 +445,11 @@
 				"x": 40,
 				"y": 0
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "z6"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "z7",
 			"id": 109,
 			"source": 104,
 			"target": 12,
@@ -462,11 +461,11 @@
 				"x": 30,
 				"y": -8.630343441600473
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "z7"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "k2.1",
 			"id": 37,
 			"source": 18,
 			"target": 23,
@@ -478,11 +477,11 @@
 				"x": 0,
 				"y": 30
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "k2.1"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "k2.2",
 			"id": 38,
 			"source": 23,
 			"target": 29,
@@ -494,11 +493,11 @@
 				"x": 0,
 				"y": 0
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "k2.2"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "k1",
 			"id": 39,
 			"source": 29,
 			"target": 14,
@@ -510,11 +509,11 @@
 				"x": 80,
 				"y": 70
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "k1"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "k6",
 			"id": 118,
 			"source": 101,
 			"target": 113,
@@ -526,11 +525,11 @@
 				"x": 0,
 				"y": 30
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "k6"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "k5",
 			"id": 119,
 			"source": 113,
 			"target": 101,
@@ -542,11 +541,11 @@
 				"x": 80,
 				"y": 60
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "k5"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "k4.1",
 			"id": 120,
 			"source": 100,
 			"target": 113,
@@ -558,11 +557,11 @@
 				"x": 50,
 				"y": 0
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "k4.1"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "k5.1",
 			"id": 121,
 			"source": 113,
 			"target": 100,
@@ -574,11 +573,11 @@
 				"x": 60,
 				"y": 80
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "k5.1"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "k8",
 			"id": 122,
 			"source": 102,
 			"target": 114,
@@ -590,11 +589,11 @@
 				"x": 0,
 				"y": 10
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "k8"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "k7",
 			"id": 123,
 			"source": 114,
 			"target": 102,
@@ -606,11 +605,11 @@
 				"x": 80,
 				"y": 40
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "k7"
 		},
 		{
 			"classId": "dvcm.SequenceFlow",
-			"name": "k12",
 			"id": 124,
 			"source": 116,
 			"target": 117,
@@ -622,7 +621,8 @@
 				"x": 0,
 				"y": 40
 			},
-			"bendPoints": []
+			"bendPoints": [],
+			"name": "k12"
 		},
 		{
 			"classId": "dvcm.InTransaction",
@@ -701,27 +701,47 @@
 		{
 			"classId": "dvcm.Transaction",
 			"id": 33,
-			"name": "MT11"
+			"name": "MT11",
+			"labelPosition": {
+				"x": 0,
+				"y": 0
+			}
 		},
 		{
 			"classId": "dvcm.Transaction",
 			"id": 125,
-			"name": "MT22"
+			"name": "MT22",
+			"labelPosition": {
+				"x": 0,
+				"y": 0
+			}
 		},
 		{
 			"classId": "dvcm.Transaction",
 			"id": 126,
-			"name": "MT33"
+			"name": "MT33",
+			"labelPosition": {
+				"x": -8,
+				"y": -8
+			}
 		},
 		{
 			"classId": "dvcm.Transaction",
 			"id": 127,
-			"name": "MT32"
+			"name": "MT32",
+			"labelPosition": {
+				"x": -8,
+				"y": -44
+			}
 		},
 		{
 			"classId": "dvcm.Transaction",
 			"id": 128,
-			"name": "MT44"
+			"name": "MT44",
+			"labelPosition": {
+				"x": 0,
+				"y": 0
+			}
 		}
 	]
 }
